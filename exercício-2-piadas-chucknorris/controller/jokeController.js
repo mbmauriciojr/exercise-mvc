@@ -7,9 +7,9 @@ const listJokes = async (_req, res) =>{
 };
 
 const listJokeByCategorie = async (req, res) => {
-  const category = req.params;
+  const { categorie } = req.params;
 
-  const joke = await Joke.getJokeByCategorie(category);
+  const joke = await Joke.getJokeByCategorie(categorie);
 
   res.status(200).render('jokes/joke', { joke });
 };
