@@ -1,4 +1,4 @@
-Esse é um projeto para o conteúdo do bloco 27, sobre `Arquitetura de Software - Introdução ao MVC`.
+Esse é um projeto para o conteúdo do bloco 30, sobre `Arquitetura de Software - Introdução ao MVC`.
 
 ### Antes de iniciar
 
