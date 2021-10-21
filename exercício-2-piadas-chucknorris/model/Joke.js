@@ -7,7 +7,7 @@ const getRandomJoke = async () => {
 };
 
 const getJokeByCategorie = async (category) => {
-  return (await axios(`https://api.chucknorris.io/jokes/random?category=${category}`)).data.valeu;
+  return (await axios(`https://api.chucknorris.io/jokes/random?category=${category}`)).data.value;
 }
 
 module.exports = {
